@@ -1,0 +1,9 @@
+data base name almacen
+CREATE TABLE `productos` (
+  `id` int NOT NULL,
+  `codigo` varchar(45) NOT NULL,
+  `nombre` varchar(45) NOT NULL,
+  `precio` decimal(10,2) NOT NULL,
+  `existencia` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
